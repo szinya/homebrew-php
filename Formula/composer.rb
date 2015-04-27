@@ -3,11 +3,11 @@ require File.expand_path("../../Requirements/php-meta-requirement", __FILE__)
 require File.expand_path("../../Requirements/composer-requirement", __FILE__)
 
 class Composer < Formula
-  homepage 'http://getcomposer.org'
+  homepage 'https://getcomposer.org'
   head 'https://getcomposer.org/composer.phar'
-  url 'http://getcomposer.org/download/1.0.0-alpha9/composer.phar'
-  sha1 'c0917158e84c867ce69753fcbc04eb7c45bb58bb'
-  version '1.0.0-alpha9'
+  url 'https://getcomposer.org/download/1.0.0-alpha10/composer.phar'
+  sha1 'b1a049fd4c54f7eb33121e655cb3b77ae95ae0d2'
+  version '1.0.0-alpha10'
 
   depends_on PhpMetaRequirement
   depends_on ComposerRequirement
